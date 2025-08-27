@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.bg-img {
+  background-image: url("../src/assets/bg-img5.png");
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 30px;
+  font-family: "Lora", serif;
+  background: linear-gradient(30deg, #f9a8d4, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mobilelogo {
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 27px;
+  font-family: "Lora", serif;
+  background: linear-gradient(30deg, #f9a8d4, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer {
+  margin-bottom: 15%;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: "Lora", serif;
+}
